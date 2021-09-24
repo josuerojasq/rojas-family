@@ -1,7 +1,7 @@
 {
-  "name": "randommessages",
+  "name": "rojas-family",
   "version": "1.0.0",
-  "description": "random de mensajes",
+  "description": "Random generator of Rojas Family names. for Platzi's NPM Course",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,12 +9,13 @@
   "keywords": [
     "javascript",
     "node",
-    "npm"
+    "npm",
+    "platzi"
   ],
   "author": "Joel Rojas <josuerojasq@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "generate-name": "./bin/global.js"
   },
   "preferGlobal": true
 }

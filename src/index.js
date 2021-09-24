@@ -1,4 +1,4 @@
-const messages = [
+const namesRojasFamily = [
     "Joel",
     "Luciana",
     "Carlita",
@@ -6,11 +6,13 @@ const messages = [
     "Hortencia",
     "Jose",
     "Keila",
+    "Gabriel",
+    "Abigail",
 ];
 
-const randomMsg = () => {
-    const message = messages[Math.floor(Math.random * messages.length)];
-    console.log(message);
+const nameGenerator = () => {
+    const name = namesRojasFamily[Math.floor(Math.random() * namesRojasFamily.length)];
+    console.log(name);
 }
 
-module.exports = { randomMsg };
+module.exports = { nameGenerator };
