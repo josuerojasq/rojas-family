@@ -15,7 +15,15 @@
   "author": "Joel Rojas <josuerojasq@gmail.com>",
   "license": "MIT",
   "bin": {
-    "generate-name": "./bin/global.js"
+    "generate-name": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuerojasq/rojas-family.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josuerojasq/rojas-family/issues"
+  },
+  "homepage": "https://github.com/josuerojasq/rojas-family#readme"
 }
